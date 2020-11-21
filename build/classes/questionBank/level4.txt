@@ -1,0 +1,175 @@
+Which of these is an incorrect form of using method max() to obtain a maximum element?
+max(Collection c)
+max(Collection c, Comparator comp)
+max(Comparator comp)
+max(List c)
+max (Collection comp)
+2
+Which of these methods sets every element of a List to a specified object?
+set()
+fill()
+Complete()
+add()
+None
+1
+Which of these is true about unmodifiableCollection() method?
+unmodifiableCollection() returns a collection that cannot be modified
+unmodifiableCollection() method is available only for List and Set
+unmodifiableCollection() is defined in Collection class
+they don't exist in java
+none of the mentioned
+1
+Which of these Exception handlers cannot be type parameterized?
+catch
+throw
+throws
+all of the mentioned
+none of the mentioned
+3
+Which of the following cannot be Type parameterized?
+Overloaded Methods
+Generic methods
+Class methods
+Overriding methods
+None of the above
+0
+Which tag should be used to pass information from JSP to included JSP?
+Using <%jsp:page> tag
+Using <%jsp:param> tag
+Using <%jsp:import> tag
+Using <%jsp:useBean> tag
+Using <%jsp:using namespace> tag
+1
+Application is instance of which class?
+javax.servlet.Application
+javax.servlet.HttpContext
+javax.servlet.Context
+javax.servlet.ServletContext
+None of the above
+3
+Which one is the correct order of phases in JSP life cycle?
+Initialization, Cleanup, Compilation, Execution
+Initialization, Compilation, Cleanup, Execution
+Compilation, Initialization, Execution, Cleanup
+Cleanup, Compilation, Initialization, Execution
+Compilation, Cleanup, Initialization, Execution
+2
+request” is instance of which one of the following classes?
+Request
+HttpRequest
+HttpServletRequest
+ServletRequest
+JavaxRequest
+2
+Which is mandatory in <jsp:useBean /> tag?
+id, class
+id, type
+type, property
+type,id
+id, name
+0
+Which of these types cannot be used to initiate a generic type?
+Integer class
+Float class
+Primitive Types
+Collections
+Double class
+2
+Assume the following method is properly synchronized and called from a thread A on an object B: wait(2000); After calling this method, when will the thread A become a candidate to get another turn at the CPU?
+After the lock on B is released, or after two seconds.
+After thread A is notified, or after two seconds.
+Two seconds after lock B is released.
+Two seconds after thread A is notified.
+None of these.
+1
+What is the name of the method that is used to start the execution of a thread?
+init();
+run();
+resume();
+start();
+None of these.
+3
+Which of the following methods cannot directly cause a thread to stop executing?
+Calling sleep() method on a Thread object.
+Calling notify() method on an object.
+None of these.
+Calling the wait() method on an object.
+Calling the SetPriority() method on a Thread object.
+1
+Which method must be defined by a class implementing the java.lang.Runnable interface?
+void run()
+public void run()
+public void start()
+public void __init__
+None of these.
+1
+What will be the values of int and Integer transient members of a class after the DeSerialization process?
+int=>1 and Integer=>0
+int=>0 and Integer=>0
+int=>-1 and Integer=>null
+int=>0 and Integer=>null
+int=>null and Integer=>null
+3
+Which of the following is not the correct method to generate a  SerialVersionUID ?
+Using serialver utility.
+From the Eclipse IDE.
+Assign the value manually.
+Write a method to calculate the class hash value.
+None of these.
+3
+What would happen if you try to alter any class variable without specifying the  serialVersionUID ?
+Runtime error.
+java.io.InvalidClassException will be thrown.
+None of these.
+java.io.NotSerializableException will be thrown.
+Compile time error.
+1
+What is the need of the Serialization Proxy Pattern?
+To secure the serialized object using obfuscation.
+Through a proxy, an attacker can not hit on the real object thus the object safety is appropriately imposed.
+To secure the serialized object using encryption.
+To improve serialization process performance.
+None of these.
+1
+How can a subclass prevent from Serialization if its superClass supports Serialization?
+It's not possible for sub-class to avert from Serialization.
+Sub-class should have writeObject(), readObject() and readObjectNoData() methods which must throw NotSerializableException.
+Sub-class can have writeObject() method and throw NotSerializableException.
+Sub-class can have writeObject() method and throw ClassNotFoundException.
+None of these.
+1
+Which of the following is not a valid reason for static member variables being out of the java serialization process?
+Serializing static member will consume unnecessary space and time.
+Serialization is applicable for objects or primitive data types only whereas static members are class level variables.
+If any of the objects modify the static member, it won’t be in sync with other serialized object’s value.
+The static variable are allocated memory only once in a class area during class loading.
+None of these.
+3
+When to add readObjectNoData() during serialization?
+readObjectNoData is used in an unusual case where the serializer is working with a version of a class with no base class.
+There's no method readObjectData() involved with serialization, this must be a typo.
+When you implement a class with instance fields that is serializable and extendable.
+When a non-serializable superclass is added to an existing serializable class.
+None of these.
+2
+What happens if an object is serializable but it includes a reference to a non-serializable object?
+‘InvalidObjectException’ will be thrown at runtime.
+‘NotActiveException’ will be thrown at runtime.
+None of these.
+‘ObjectStreamException’ will be thrown at runtime.
+‘NotSerializableException’ will be thrown at runtime.
+4
+What would happen if one of the class members doesn’t implement Serializable interface?
+NotSerializableException
+InvalidClassException
+ObjectStreamException
+ClassNotFoundException
+None of these.
+0
+What will be the value of a transient variable after deserialization?
+It'll be set to the original value saved during the serialization.
+If it is an integer then it'll be set to '-1' after deserialization.
+None of these.
+If it is an integer then it'll be set to 'null' after deserialization.
+It'll be set to default value after deserialization. For example, an integer variable will be set to '0'.
+4

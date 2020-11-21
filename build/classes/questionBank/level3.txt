@@ -1,0 +1,175 @@
+What is called in Java an area on the screen that has nice frames and different buttons below the top frame?
+window
+screen
+box
+frame
+None of the above
+3
+What is the name of the swing class used for frames?
+window
+frame
+JFrame
+Swing frame
+None of the above
+2
+Which method sets the size of an JFrameobject?
+setSize( int width, int height)
+setSize( int height, int width)
+setVisible( int width, int height)
+setVisible( int height, int width)
+None of the above
+0
+The size of a frame on the screen is measured in:
+inch
+centimeter
+points
+pixel
+centimeters squared
+3
+What is a container object in GUI programming?
+A container is another name for an array or a vector.
+A container is any class made from another class.
+A container is a primitive variable containing the current data.
+A container is an object like a frame that contains other GUI components.
+None of the above
+3
+Which of the following statements sets a frame to a width of 300 and a height of 200 pixels?
+frm.setSize( 300, 200 );
+frm.setSize( 200, 300 );
+frm.paint( 300, 200 );
+frm.setVisible( 300, 200 );
+frm.setWidthHeight( 300, 200 );
+0
+Which three types of software are needed by a complete GUI program.
+GUI components, event listeners, application code
+Action events, widgets, containers
+Frames, windows, containers
+Libraries, Toolkits, Interfaces
+Laptop, hard disc, Monitor
+0
+How is a GUI component (like a button) added to a JFrame?
+insert (component c)
+add (component c)
+draw (component c)
+put (component c)
+print (component c)
+1
+The JavaFX compiler and an older version of the 2D ________ are released under a GPL v2 license,
+OpenGLScene
+Graph
+Tree (data structure)
+Binary space partitioning
+None of the above
+0
+JavaFX Mobile was publicly available as part of the JavaFX 1.1 release announced by Sun Microsystems in ________?
+1999
+2003
+2009
+2010
+It doesn't exist yet
+2
+Which manager displays components line by line, in the order in which they were added to the frame?
+Card Layout
+FlowLayout
+Grid layout
+Border Layout
+None of the above
+1
+Which method of a JFrame is used to select a layout manager?
+setLayout ()
+add ()
+actionPerformed ()
+setVisible ()
+select ()
+0
+Which interface does a class need to implement to become a listener to the ActionEvents of a button?
+TextListener
+Runnable
+ActionListener
+ImageConsumer
+None
+2
+Which method does a listener have to implement for Button events?
+paint ()
+windowClosing ()
+addActionListener ()
+actionPerformed ()
+implement ()
+3
+What method of a content pane changes its background color?
+setBackground (Color c)
+setForeground (Color c)
+add ()
+getBackground ()
+Background (Color c)
+0
+Which method will the program end immediately?
+System.gc ()
+System.exit (0)
+System.setErr ()
+return ()
+end (Program p)
+1
+Which method (of a frame) returns a reference to its content area?
+getContentPane ()
+contentPane ()
+framePane ()
+getPane ()
+getContent ()
+0
+What kind of object determines how GUI components are arranged in a content area?
+The layer organizer.
+The Layout Programmer.
+The layout manager.
+The Frame Positioner.
+All of the above
+2
+Which interface does a button listener have to implement?
+Action Listener
+ButtonListener
+ClickListener
+DeviceListener
+HitListener
+0
+Which method does a button listener have to implement?
+buttonAction ()
+eventAction ()
+actionMethod ()
+actionPerformed ()
+action ()
+3
+From which direct base class is JTextFieldderived?
+JText
+JField
+JTextComponent
+JComponent
+JUtil
+2
+How to put FlowLayout() components in a frame?
+It starts at the top, then from left to right for each line.
+It starts at the bottom, then from right to left for each row.
+It starts in the middle and then goes spiral outward.
+He puts the first component in the middle and squeezes the rest around it.
+It is impossible
+0
+When does a text field create an action event?
+If the field has focus and the Enter key is pressed.
+For each character entered in the field.
+Whenever the frame has focus and the Enter key is pressed.
+When the text box loses focus.
+Never
+0
+Can different layout managers be JPanelchosen for each ?
+No, only one layout manager can be used for the entire frame.
+Yes, each container has its own layout manager, independent of the others.
+No, all JFrames in a frame use the same layout manager.
+Yes, but only if JPanels are nested.
+No, they are not supported by Java
+1
+If the user changes the size of the frame, what happens to the graphical components?
+They stay where they are, only the frame gets bigger.
+The layout manager changes the layout and redistributes the components.
+The user can not change the size of a frame if the program has been setSizeused.
+repaint() calls the constructor of the frame, which resets everything back to what it was before.
+It depends on operational system of computer.
+1
